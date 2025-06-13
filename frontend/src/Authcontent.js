@@ -8,7 +8,7 @@ export const AuthProvider = ({ children }) => {
 
   const login = async (username, password) => {
    
-      const res = await axios.post("http://localhost:3002/api/auth/login", {
+      const res = await axios.post("https://zerodha-clone-backend-6q1h.onrender.com/api/auth/login", {
         username,
         password,
       });
@@ -21,7 +21,7 @@ export const AuthProvider = ({ children }) => {
 
   const signup = async (username, email, password) => {
     try {
-      await axios.post("http://localhost:3002/api/auth/signup", {
+      await axios.post("https://zerodha-clone-backend-6q1h.onrender.com/api/auth/signup", {
         username,
         email,
         password,
