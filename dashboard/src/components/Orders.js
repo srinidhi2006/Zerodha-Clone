@@ -8,7 +8,7 @@ import TopBar from "./TopBar";
 const Orders = () => {
   const [allOrders,setAllOrders]=useState([]);
   useEffect(()=>{
-    axios.get("http://localhost:3002/allOrders").then((res)=>{
+    axios.get("https://zerodha-clone-backend-6q1h.onrender.com/allOrders").then((res)=>{
       setAllOrders(res.data);
     });
   },[]);
