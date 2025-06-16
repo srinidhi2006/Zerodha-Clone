@@ -1,4 +1,4 @@
-# Zerodha Clone 🐦
+# Zerodha Clone 
 
 A full-stack web application that replicates key functionalities of the Zerodha stock trading platform. This project demonstrates seamless integration of frontend, backend, and a dashboard interface.
 
