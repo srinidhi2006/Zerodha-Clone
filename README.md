@@ -50,11 +50,14 @@ Zerodha-Clone/
 ├── frontend/ # React user interface
 ├── dashboard/ # React dashboard (static site)
 └── README.md
-## 🔒 License
+## ⚠️ Disclaimer
 
-This project is **not licensed for redistribution or modification**.  
-All rights are reserved by the author. Please do not copy, reuse, or modify any part of this codebase without explicit permission.
+This repository is a personal, non‑commercial **educational clone** of the Zerodha trading platform.  
+It is intended solely for learning and demonstration purposes and is **not affiliated with, endorsed by, or sponsored by Zerodha** in any way.
 
----
+- Some UI/UX elements, branding, and logos are inspired by Zerodha and remain the property of their respective owners.  
+- Features and code written by the author are licensed under the terms laid out in the [LICENSE](./LICENSE) file.  
+- **Reproduction, redistribution, or commercial use** of any part of this codebase (including borrowed UI elements) is strictly prohibited without explicit written permission from the author.
+
 
 Created by [@srinidhi2006](https://github.com/srinidhi2006)
